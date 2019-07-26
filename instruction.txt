@@ -1,0 +1,24 @@
+
+
+*****************************************
+* FEMAK Technologies                    *
+*                                       *
+*****************************************
+
+
+Welcome
+
+Steps in using the calender in your projects.
+1. Extract the file and upload the "mycalendar" folder into the root directory
+
+2. include the css file into the header of the page where you want the calender to display.
+3 Copy and paste the code bellow into the container you created for the calender. 
+<?php 
+require_once('./mycalendar/mycalendar.php') 
+?>
+
+Note: the mycalendar plugin can only work on website built on php programing language.
+
+Thanks, 
+
+Don't forget to share and follow us for more features.

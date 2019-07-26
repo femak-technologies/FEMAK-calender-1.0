@@ -1,0 +1,148 @@
+.my-calendar {
+  background-color:#ffffff;
+  margin:0px 10px 0px 10px;
+  padding-bottom:10px;
+  border:solid;
+  border-radius:10px;
+  border-color:#a5a9a5;
+  max-width:320px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+.calendar-header {
+  background-color:#1a353e;
+  color:#ffffff;
+  padding:15px;
+  border-top-right-radius:8px;
+  border-top-left-radius:8px;
+}
+
+.calendar-header h1 {
+  margin:0;
+  font-size:18px;
+  font-weight:400;
+  text-transform:uppercase;
+  font-family:'Bree Serif', serif;
+}
+
+.my-calendar thead {
+  background-color:#ff623f;
+  color:#ffffff;
+  margin-bottom:5px;
+}
+
+.my-calendar tbody {
+  color:#484848;
+  font-size:14px;
+  font-weight:400;
+}
+
+.my-calendar table {
+  margin:0;
+}
+
+.my-calendar td {
+  border-radius:50%;
+  background-color:#ffffff;
+  padding:10px;
+}
+
+.my-calendar td:hover, .my-calendar td:focus {
+  background-color:#fc1e00;
+  color:#ffddee;
+  cursor:pointer;
+}
+
+.my-calendar td.active {
+  background-color:#024802;
+  color:#ffffff;
+}
+
+.my-calendar td.disabled:hover, .my-calendar td.disabled:focus {
+  background-color:inherit;
+  color:inherit;
+  cursor:auto;
+}
+
+.calendar-header .control {
+  display:inline-block;
+  border-radius:25px;
+  width:25px;
+  height:25px;
+  text-align:center;
+  background-color:#fcfbfa;
+  color:#1a353e;
+  vertical-align:middle;
+  line-height:1.6em;
+  cursor:pointer;
+}
+
+.table thead th {
+  vertical-align:bottom;
+  border-bottom:none;
+}
+
+.table td, .table th {
+  padding:.75rem;
+  vertical-align:top;
+  border-top:none;
+  border:none;
+}
+
+th {
+  text-align:inherit;
+}
+
+table {
+  border-collapse:collapse;
+}
+
+body {
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size:1rem;
+  font-weight:400;
+  line-height:1.5;
+  color:#212529;
+  text-align:left;
+  background-color:#fff;
+}
+
+html {
+  font-family:sans-serif;
+  line-height:1.15;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  -ms-overflow-style:scrollbar;
+  -webkit-tap-highlight-color:transparent;
+}
+
+.table-responsive {
+  display:block;
+  width:100%;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  -ms-overflow-style:-ms-autohiding-scrollbar;
+}
+
+.table {
+  width:100%;
+  max-width:100%;
+  margin-bottom:1rem;
+  background-color:transparent;
+}
+
+.d-block {
+  display:block!important;
+}
+.float-right {
+  float:right!important;
+}
+
+.float-left {
+  float:left!important;
+}
+
+
+
